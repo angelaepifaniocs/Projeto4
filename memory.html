@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jogos</title>
+  <meta name="title" content="Educação Ambiental">
+
+  <link rel="shortcut icon" href="image/27.png" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="image/28.png" width="162" height="50" alt=" logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" width="162" height="50" alt=" logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="games.html" class="navbar-link" data-nav-link>Atividades</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="curiosidades.html" class="navbar-link" data-nav-link>Curiosidades</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contato</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="toggle search" title="Search">
+
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+  <a href="games.html" class="volta"><img src="image/volta.png" class="voltaimg" alt="" style="height: 20px;"></a>
+  
+    <div class="area">
+      <div class="game-container">
+        <div id="moves-count"></div>
+        <div id="time"></div>
+      </div>
+      <div class="game-container"></div>
+      <button id="stop" class="hide">Parar</button>
+    </div>
+    <div class="controls-container">
+      <p id="result"></p>
+      <button id="start">Iniciar</button>
+    </div>
+    <script src="js/game.js"></script>
+    <footer class="footer">
+  <p>© 2025 Ecos — Educação Ambiental Infantil. Todos direitos reservados - Angela Epifanio</p>
+</footer>
+  </body>
+</html>

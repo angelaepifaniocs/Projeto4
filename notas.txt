@@ -1,0 +1,5 @@
+Aprendizados
+Organizar variações de color, background, radius e outros usando var. Voce nomeia os tons e tamanhos e apenas aplica como uma var no css, usar videos em inglês e aprender a adaptar códigos
+
+Melhorias
+Talvez colocar login, mais jogos e opções manuais de jogos
